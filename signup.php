@@ -1,5 +1,7 @@
+<?php require_once 'controllers/authController.php'; ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +14,13 @@
     <div class="row">
       <div class="col-md-4 offset-md-4 form-div">
         <form action="signup.php" method="post">
+
+          <!--<div class="alert alert-danger">
+            <li>Digite seu E-mail</li>
+            <li>Digite seu Usuario</li>
+            <li>Digite sua Senha</li>
+          </div>-->
+
           <h3 class="text-center">Register</h3>
 
 <!--          <div class="form-group">
